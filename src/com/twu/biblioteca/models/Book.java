@@ -1,9 +1,12 @@
-package com.twu.biblioteca.books;
+package com.twu.biblioteca.models;
+
+import java.util.Objects;
 
 public class Book {
     private String title;
     private int year;
     private String author;
+    private boolean rented;
 
     public Book(String title, int year, String author) {
         this.title = title;
@@ -23,8 +26,16 @@ public class Book {
         return author;
     }
 
+    public boolean isRented() {
+        return rented;
+    }
+
+    public void setRented(boolean rented) {
+        this.rented = rented;
+    }
+
     @Override
     public String toString() {
-        return title + " (" + year + ") - By: " + author;
+        return title + " (" + year + ") - By: " + author + "Rented:"+isRented();
     }
 }

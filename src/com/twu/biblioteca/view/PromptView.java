@@ -30,8 +30,21 @@ public abstract class PromptView implements View {
         System.out.println(object.toString());
     }
 
+    public void goTo(Class view) {
+        try {
+            View newView = (View) view.getConstructor(Scanner.class).newInstance(reader);
+            newView.initialize();
+        } catch (Exception e ) {
+            e.printStackTrace();
+            close();
+        }
+    }
+
     public void close() {
         show("Good Bye!");
         reader.close();
     }
+
+    public abstract void initialize();
+    public abstract void refresh();
 }

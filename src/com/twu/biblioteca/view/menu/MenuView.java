@@ -1,36 +1,42 @@
 package com.twu.biblioteca.view.menu;
 
+import com.sun.javaws.exceptions.ErrorCodeResponseException;
 import com.twu.biblioteca.BibliotecaApp;
-import com.twu.biblioteca.books.Book;
 import com.twu.biblioteca.resources.Strings;
-import com.twu.biblioteca.storage.StorageManager;
+import com.twu.biblioteca.controllers.LibraryController;
 import com.twu.biblioteca.view.PromptView;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.List;
-import java.util.Scanner;
 
 public class MenuView extends PromptView {
     List<MenuOption> options;
-    public MenuView() {
-        super(new Scanner(System.in));
+    public MenuView(Scanner scan) {
+        super(scan);
         setup();
     }
 
     private void setup() {
-        StorageManager storageManager = BibliotecaApp.getStorageManager();
+        LibraryController libraryController = BibliotecaApp.getLibraryController();
         this.options = new ArrayList<>(Arrays.asList(
-                new MenuOption(1, Strings.get("menu.optionOne"), () -> storageManager.getBooks().stream().forEach(super::show)),
-                new MenuOption(0, Strings.get("menu.optionExit"), super::close)
+                new MenuOption(1, Strings.get("menu.viewListOption"), () -> { libraryController.getAvailableBooks().stream().forEach(super::show); refresh();}),
+                new MenuOption(2, Strings.get("menu.rentBookOption"), () -> super.goTo(RentView.class)),
+                new MenuOption(0, Strings.get("menu.exitOption"), super::close)
         ));
     }
 
-    public void init() {
+    @Override
+    public void initialize() {
         options.stream().forEach(option -> super.show(option.toString()));
-        int selectedOption = super.askAndParse(Strings.get("menu.question"), Integer::parseInt);
-        handleSelectedOption(selectedOption);
+        try {
+            int selectedOption = super.askAndParse(Strings.get("menu.question"), Integer::parseInt);
+            if (!isValidOption(selectedOption)) throw new Exception("invalid option number");
+            handleSelectedOption(selectedOption);
+        } catch (Exception e) {
+            handleInvalidAnswer();
+        }
     }
+
 
     public MenuOption getMenuOption(int optionNumber) {
         return options.stream()
@@ -39,9 +45,21 @@ public class MenuView extends PromptView {
                 .orElse(null);
     }
 
-    public void handleSelectedOption(int selectedOptionNum) {
-        MenuOption menuOption = getMenuOption(selectedOptionNum);
+    public void handleSelectedOption(int selectedOption) {
+        MenuOption menuOption = getMenuOption(selectedOption);
         menuOption.getHandler().apply();
     }
+
+    public boolean isValidOption(int selectedOption) { return options.stream().anyMatch(option -> option.getOptionNumber() == selectedOption); }
+
+
+    public void handleInvalidAnswer() {
+        super.show(Strings.get("menu.invalidAnswer"));
+        super.show("\n");
+        refresh();
+    }
+
+    @Override
+    public void refresh() { this.goTo(this.getClass());}
 
 }

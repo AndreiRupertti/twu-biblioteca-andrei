@@ -9,7 +9,7 @@ public class MenuOption {
 
     @Override
     public String toString() {
-        return optionNumber + "-" + label;
+        return optionNumber + " - " + label;
     }
 
     public MenuOption(int optionNumber, String label, OptionHandler handler) {
