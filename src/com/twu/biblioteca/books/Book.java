@@ -22,4 +22,9 @@ public class Book {
     public String getAuthor() {
         return author;
     }
+
+    @Override
+    public String toString() {
+        return title + " (" + year + ") - By: " + author;
+    }
 }

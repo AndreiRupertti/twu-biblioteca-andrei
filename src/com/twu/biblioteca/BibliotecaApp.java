@@ -4,21 +4,20 @@ import com.twu.biblioteca.books.Book;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.storage.Storage;
 import com.twu.biblioteca.storage.StorageManager;
+import com.twu.biblioteca.view.menu.MenuOption;
+import com.twu.biblioteca.view.menu.MenuView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class BibliotecaApp {
 
     public static void main(String[] args) {
-        System.out.println(Strings.get("app.welcomeMessage"));
-        StorageManager storageManager = new StorageManager(getFakeStorage());
-        storageManager.getBooks().stream().forEach((book) -> System.out.println(
-                book.getTitle() + " - " +
-                book.getYear() + " - " +
-                book.getAuthor()
-        ));
+        System.out.println(Strings.get("welcomeMessage"));
+        MenuView menuView = new MenuView();
+        menuView.init();
     }
 
     public static Storage getFakeStorage() {
@@ -29,4 +28,7 @@ public class BibliotecaApp {
                 new Book("The Divine Comedy", 1315, "Dante Alighieri")));
 
         return new Storage(items);
-    }}
+    }
+
+    public static StorageManager getStorageManager() { return new StorageManager(getFakeStorage()); }
+}
