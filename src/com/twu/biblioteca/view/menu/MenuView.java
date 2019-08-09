@@ -21,6 +21,7 @@ public class MenuView extends PromptView {
         this.options = new ArrayList<>(Arrays.asList(
                 new MenuOption(1, Strings.get("menu.viewListOption"), () -> { libraryController.getAvailableBooks().stream().forEach(super::show); refresh();}),
                 new MenuOption(2, Strings.get("menu.rentBookOption"), () -> super.goTo(RentView.class)),
+                new MenuOption(3, Strings.get("menu.devolutionBookOption"), () -> super.goTo(DevolutionView.class)),
                 new MenuOption(0, Strings.get("menu.exitOption"), super::close)
         ));
     }

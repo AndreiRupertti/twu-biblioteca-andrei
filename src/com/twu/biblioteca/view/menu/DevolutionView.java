@@ -9,38 +9,35 @@ import com.twu.biblioteca.view.PromptView;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-public class RentView extends PromptView implements InputHandler {
+public class DevolutionView extends PromptView implements InputHandler {
 
-    public RentView(Scanner scan) {
+    public DevolutionView(Scanner scan) {
         super(scan);
     }
 
     @Override
     public void initialize() {
         LibraryController libraryController = BibliotecaApp.getLibraryController();
-        try {
-            Book book = checkoutBook(libraryController);
-            successHandler();
-        } catch (NoSuchElementException e) {
-            failureHandler();
-        }
+        if (returnBook(libraryController)) successHandler();
+        else failureHandler();
     }
 
     @Override
     public void refresh() { this.goTo(this.getClass());}
 
     public void successHandler() {
-        super.show(Strings.get("rent.successMessage"));
+        super.show(Strings.get("devolution.successMessage"));
         super.goTo(MenuView.class);
     }
 
     public void failureHandler() {
-        super.show(Strings.get("rent.failureMessage"));
+        super.show(Strings.get("devolution.failureMessage"));
         initialize();
     }
 
-    private Book checkoutBook(LibraryController libraryController) {
-        String bookTitle = super.ask(Strings.get("rent.question"));
-        return libraryController.checkoutBookByTitle(bookTitle);
+    private boolean returnBook(LibraryController libraryController) {
+        String bookTitle = super.ask(Strings.get("devolution.question"));
+        return libraryController.returnBook(bookTitle);
     }
+
 }

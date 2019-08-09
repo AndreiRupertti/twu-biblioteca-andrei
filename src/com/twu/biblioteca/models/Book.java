@@ -1,12 +1,10 @@
 package com.twu.biblioteca.models;
 
-import java.util.Objects;
-
 public class Book {
     private String title;
     private int year;
     private String author;
-    private boolean rented;
+    private boolean checkouted;
 
     public Book(String title, int year, String author) {
         this.title = title;
@@ -26,16 +24,16 @@ public class Book {
         return author;
     }
 
-    public boolean isRented() {
-        return rented;
+    public boolean isCheckouted() {
+        return checkouted;
     }
 
-    public void setRented(boolean rented) {
-        this.rented = rented;
+    public void setCheckouted(boolean checkouted) {
+        this.checkouted = checkouted;
     }
 
     @Override
     public String toString() {
-        return title + " (" + year + ") - By: " + author + "Rented:"+isRented();
+        return title + " (" + year + ") - By: " + author + "Rented:"+ isCheckouted();
     }
 }
