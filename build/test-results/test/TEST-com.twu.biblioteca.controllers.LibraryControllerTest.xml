@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.twu.biblioteca.controllers.LibraryControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-10T00:36:48" hostname="Andreis-MacBook-Pro.local" time="5.74">
+  <properties/>
+  <testcase name="WhenReturningBookShouldSetAsNotCheckouted" classname="com.twu.biblioteca.controllers.LibraryControllerTest" time="5.74"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

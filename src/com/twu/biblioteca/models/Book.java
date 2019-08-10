@@ -34,6 +34,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return title + " (" + year + ") - By: " + author + "Rented:"+ isCheckouted();
+        return title + " (" + year + ") - By: " + author;
     }
 }

@@ -1,6 +1,5 @@
 package com.twu.biblioteca.view.menu;
 
-import com.sun.javaws.exceptions.ErrorCodeResponseException;
 import com.twu.biblioteca.BibliotecaApp;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.controllers.LibraryController;

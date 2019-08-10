@@ -2,11 +2,27 @@ plugins {
     id 'java'
 }
 
-group 'TWY_Biblioteca-master'
+group 'biblioteca'
 version '1.0-SNAPSHOT'
 
+sourceSets.main.java.srcDirs = ['src']
 sourceCompatibility = 1.8
 
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'resources/'
+        }
+    }
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
+}
 repositories {
     mavenCentral()
     jcenter()
