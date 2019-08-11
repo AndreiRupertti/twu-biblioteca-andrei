@@ -46,4 +46,12 @@ public class PromptViewTest {
         promptViewWrapper.goTo(null);
         verify(scannerMock, times(1)).close();
     }
+
+
+    @Test
+    public void shouldGoToCurrentViewWhenRefreshing() {
+        doAnswer((param) -> null).when(promptViewWrapper).initialize();
+        promptViewWrapper.refresh();
+        verify(promptViewWrapper, times(1)).goTo(PromptViewWrapper.class);
+    }
 }

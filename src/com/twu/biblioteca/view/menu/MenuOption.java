@@ -1,6 +1,5 @@
 package com.twu.biblioteca.view.menu;
 
-import java.util.function.Function;
 
 public class MenuOption {
     private int optionNumber;

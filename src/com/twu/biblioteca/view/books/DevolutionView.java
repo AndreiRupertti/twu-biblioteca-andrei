@@ -1,12 +1,12 @@
-package com.twu.biblioteca.view.menu;
+package com.twu.biblioteca.view.books;
 
 import com.twu.biblioteca.BibliotecaApp;
 import com.twu.biblioteca.controllers.LibraryController;
-import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
+import com.twu.biblioteca.view.InputHandler;
+import com.twu.biblioteca.view.menu.MenuView;
 
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class DevolutionView extends PromptView implements InputHandler {
@@ -22,9 +22,6 @@ public class DevolutionView extends PromptView implements InputHandler {
         else failureHandler();
     }
 
-    @Override
-    public void refresh() { this.goTo(this.getClass());}
-
     public void successHandler() {
         super.show(Strings.get("devolution.successMessage"));
         super.goTo(MenuView.class);
@@ -32,7 +29,7 @@ public class DevolutionView extends PromptView implements InputHandler {
 
     public void failureHandler() {
         super.show(Strings.get("devolution.failureMessage"));
-        initialize();
+        refresh();
     }
 
     private boolean returnBook(LibraryController libraryController) {

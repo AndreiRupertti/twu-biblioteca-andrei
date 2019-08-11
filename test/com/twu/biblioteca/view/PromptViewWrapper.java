@@ -9,6 +9,4 @@ public class PromptViewWrapper extends PromptView {
 
     @Override
     public void initialize() { isViewInitialized = true; }
-    @Override
-    public void refresh() {}
 }

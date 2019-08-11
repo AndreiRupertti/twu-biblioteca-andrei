@@ -1,10 +1,12 @@
-package com.twu.biblioteca.view.menu;
+package com.twu.biblioteca.view.books;
 
 import com.twu.biblioteca.BibliotecaApp;
 import com.twu.biblioteca.controllers.LibraryController;
 import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
+import com.twu.biblioteca.view.InputHandler;
+import com.twu.biblioteca.view.menu.MenuView;
 
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -26,9 +28,6 @@ public class RentView extends PromptView implements InputHandler {
         }
     }
 
-    @Override
-    public void refresh() { this.goTo(this.getClass());}
-
     public void successHandler() {
         super.show(Strings.get("rent.successMessage"));
         super.goTo(MenuView.class);
@@ -36,7 +35,7 @@ public class RentView extends PromptView implements InputHandler {
 
     public void failureHandler() {
         super.show(Strings.get("rent.failureMessage"));
-        initialize();
+        refresh();
     }
 
     private Book checkoutBook(LibraryController libraryController) {

@@ -1,5 +1,7 @@
-package com.twu.biblioteca.view.menu;
+package com.twu.biblioteca.view.books;
 
+import com.twu.biblioteca.view.books.DevolutionView;
+import com.twu.biblioteca.view.menu.MenuView;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -26,7 +28,7 @@ public class DevolutionViewTest {
         devolutionView.failureHandler();
 
         verify(devolutionView, times(1)).show(any(String.class));
-        verify(devolutionView, times(1)).initialize();
+        verify(devolutionView, times(1)).refresh();
     }
 
     @Test
@@ -34,13 +36,6 @@ public class DevolutionViewTest {
         devolutionView.successHandler();
         verify(devolutionView, times(1)).show(any(String.class));
         verify(devolutionView, times(1)).goTo(MenuView.class);
-    }
-
-    @Test
-    public void shouldGoToCurrentViewWhenRefreshing() {
-        doAnswer((param) -> null).when(devolutionView).initialize();
-        devolutionView.refresh();
-        verify(devolutionView, times(1)).goTo(DevolutionView.class);
     }
 
 

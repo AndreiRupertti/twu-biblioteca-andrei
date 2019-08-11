@@ -1,4 +1,4 @@
-package com.twu.biblioteca.view.menu;
+package com.twu.biblioteca.view;
 
 public interface InputHandler {
 
