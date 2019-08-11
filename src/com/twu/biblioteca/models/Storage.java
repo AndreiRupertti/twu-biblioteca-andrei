@@ -1,6 +1,5 @@
 package com.twu.biblioteca.models;
 
-import com.twu.biblioteca.models.Book;
 
 import java.util.List;
 
@@ -16,7 +15,4 @@ public class Storage {
         return items;
     }
 
-    public Book updateItem(Book item) {
-        return this.items.set(this.items.indexOf(item), item);
-    }
 }

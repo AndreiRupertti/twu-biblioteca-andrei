@@ -1,5 +1,6 @@
 package com.twu.biblioteca.view;
 
+import java.lang.reflect.Constructor;
 import java.util.Scanner;
 import java.util.function.Function;
 
@@ -28,11 +29,12 @@ public abstract class PromptView implements View {
         System.out.println(object.toString());
     }
 
-    public void goTo(Class view) {
+    public <T extends View> void goTo(Class<T> view) {
         try {
-            View newView = (View) view.getConstructor(Scanner.class).newInstance(reader);
+            System.out.printf(view.getConstructors()[0].toString());
+            View newView = (View) view.getConstructors()[0].newInstance(reader);
             newView.initialize();
-        } catch (Exception e ) {
+        } catch (Exception e) {
             e.printStackTrace();
             close();
         }

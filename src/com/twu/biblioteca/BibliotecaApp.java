@@ -6,9 +6,7 @@ import com.twu.biblioteca.models.Storage;
 import com.twu.biblioteca.controllers.LibraryController;
 import com.twu.biblioteca.view.menu.MenuView;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class BibliotecaApp {

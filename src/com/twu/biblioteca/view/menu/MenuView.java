@@ -4,6 +4,7 @@ import com.twu.biblioteca.BibliotecaApp;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.controllers.LibraryController;
 import com.twu.biblioteca.view.PromptView;
+import com.twu.biblioteca.view.View;
 
 import java.util.*;
 import java.util.List;
