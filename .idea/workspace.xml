@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e59f9a2-662b-4181-afc5-d35f353e24a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/DevolutionView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/InputHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/MenuOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/MenuOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/MenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/twu/biblioteca/view/menu/RentView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/twu/biblioteca/view/menu/DevolutionViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/DevolutionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/DevolutionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/InputHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/InputHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/RentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/RentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/DevolutionViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/DevolutionViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -56,120 +44,39 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/books/DevolutionViewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/books/DevolutionView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/books/RentView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuOptionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="49" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuOption.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuOptionFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="518">
+                  <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#253#254#0" expanded="true" />
+                    <element signature="e#328#329#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="428">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -199,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/models/Storage.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/resources/StringsTest.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewWrapper.java" />
         <option value="$PROJECT_DIR$/resources/strings/Strings.properties" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/resources/Strings.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/RentView.java" />
@@ -210,14 +116,15 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuOption.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuOptionFactoryTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuOptionTest.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/DevolutionView.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/RentView.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/DevolutionViewTest.java" />
         <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewTest.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewWrapper.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java" />
       </list>
     </option>
   </component>
@@ -265,14 +172,6 @@
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twu-biblioteca-andrei" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,13 +184,6 @@
               <item name="twu-biblioteca-andrei" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="twu-biblioteca-andrei" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biblioteca" type="b2602c69:ProjectViewProjectNode" />
@@ -369,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in twu-biblioteca-andrei.test">
+  <component name="RunManager" selected="JUnit.MenuViewTest.shouldHandleValidAnswer">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="twu-biblioteca-andrei.main" />
@@ -391,7 +283,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuOptionFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuViewTest.shouldHandleInvalidAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="twu-biblioteca-andrei.test" />
       <extension name="coverage">
         <pattern>
@@ -400,8 +292,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca.view.menu" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.view.menu.MenuOptionFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.view.menu.MenuViewTest" />
+      <option name="METHOD_NAME" value="shouldHandleInvalidAnswer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuViewTest.shouldHandleValidAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twu-biblioteca-andrei.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.twu.biblioteca.view.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.twu.biblioteca.view.menu" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.view.menu.MenuViewTest" />
+      <option name="METHOD_NAME" value="shouldHandleValidAnswer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,28 +331,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RentViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="twu-biblioteca-andrei.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.view.books.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca.view.books" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.view.books.RentViewTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MenuViewTest.shouldHandleValidAnswer" />
+        <item itemvalue="JUnit.MenuViewTest.shouldHandleInvalidAnswer" />
         <item itemvalue="JUnit.All in twu-biblioteca-andrei.test" />
         <item itemvalue="JUnit.PromptViewTest.shouldGoToCurrentViewWhenRefreshing" />
         <item itemvalue="Application.BibliotecaApp" />
-        <item itemvalue="JUnit.RentViewTest" />
-        <item itemvalue="JUnit.MenuOptionFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,15 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DevolutionViewTest_shouldGoToCurrentViewWhenRefreshing - 2019.08.10 at 23h 14m 18s.xml">
-      <configuration name="DevolutionViewTest.shouldGoToCurrentViewWhenRefreshing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevolutionViewTest_shouldGoToCurrentViewWhenRefreshing - 2019.08.10 at 23h 14m 54s.xml">
-      <configuration name="DevolutionViewTest.shouldGoToCurrentViewWhenRefreshing" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevolutionViewTest - 2019.08.10 at 23h 15m 04s.xml">
-      <configuration name="DevolutionViewTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RentViewTest - 2019.08.10 at 23h 24m 31s.xml">
       <configuration name="RentViewTest" configurationId="JUnit" />
     </history-entry>
@@ -491,6 +376,15 @@
     <history-entry file="All_in_twu-biblioteca-andrei_test - 2019.08.10 at 23h 56m 07s.xml">
       <configuration name="All in twu-biblioteca-andrei.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PromptViewTest_shouldGoToCurrentViewWhenRefreshing - 2019.08.10 at 23h 57m 56s.xml">
+      <configuration name="PromptViewTest.shouldGoToCurrentViewWhenRefreshing" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PromptViewTest_shouldGoToCurrentViewWhenRefreshing - 2019.08.10 at 23h 58m 41s.xml">
+      <configuration name="PromptViewTest.shouldGoToCurrentViewWhenRefreshing" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_twu-biblioteca-andrei_test - 2019.08.10 at 23h 59m 05s.xml">
+      <configuration name="All in twu-biblioteca-andrei.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -505,7 +399,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -629,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/InputHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -653,13 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -667,13 +547,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -715,28 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuOptionFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -749,8 +600,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/books/DevolutionViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="468">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/2.28.2/8322b59516491570931c086329654ef841e61811/mockito-core-2.28.2-sources.jar!/org/mockito/stubbing/Stubber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -759,12 +634,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/PromptViewWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
           </folding>
         </state>
       </provider>
