@@ -25,6 +25,19 @@ public class Movie extends Product {
         if (isNaN(rating)) return "Unrated";
         else return rating.toString();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
     @Override
     public String toString() {
         return ""+name+" ("+year+") - Directed By: " + director + "|| Rating: "+ getRating();

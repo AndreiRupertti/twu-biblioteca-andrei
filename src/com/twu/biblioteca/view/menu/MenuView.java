@@ -2,14 +2,18 @@ package com.twu.biblioteca.view.menu;
 
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
+import com.twu.biblioteca.view.View;
 import com.twu.biblioteca.view.books.BookListView;
 import com.twu.biblioteca.view.books.DevolutionView;
+import com.twu.biblioteca.view.books.MovieListView;
 import com.twu.biblioteca.view.books.RentView;
 
 import static com.twu.biblioteca.view.menu.MenuOptionFactory.*;
 
 import java.util.*;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 
 public class MenuView extends PromptView {
@@ -18,9 +22,10 @@ public class MenuView extends PromptView {
     public MenuView(Scanner scan) {
         super(scan);
         this.options = getOptionsList(
-                option(1, Strings.get("menu.viewListOption"), () -> super.goTo(BookListView.class)),
-                option(2, Strings.get("menu.rentBookOption"), () -> super.goTo(RentView.class)),
-                option(3, Strings.get("menu.devolutionBookOption"), () -> super.goTo(DevolutionView.class)),
+                option(1, Strings.get("menu.viewBookListOption"), () -> super.goTo(BookListView.class)),
+                option(2, Strings.get("menu.viewMovieListOption"), () -> super.goTo(MovieListView.class)),
+                option(3, Strings.get("menu.rentBookOption"), () -> super.goTo(RentView.class)),
+                option(4, Strings.get("menu.devolutionBookOption"), () -> super.goTo(DevolutionView.class)),
                 option(0, Strings.get("menu.exitOption"), super::close)
         );
     }
@@ -33,6 +38,7 @@ public class MenuView extends PromptView {
             if (!isValidOption(selectedOption)) throw new Exception("invalid option number");
             handleSelectedOption(selectedOption);
         } catch (Exception e) {
+            e.printStackTrace();
             handleInvalidAnswer();
         }
     }

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e59f9a2-662b-4181-afc5-d35f353e24a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/TWU_Biblioteca-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/TWU_Biblioteca-master.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/TWU_Biblioteca-master.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -14,34 +16,32 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/twu-biblioteca-andrei.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/twu-biblioteca-andrei.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/twu-biblioteca-andrei.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/BibliotecaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/BibliotecaApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/controllers/LibraryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/controllers/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Movie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/resources/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/resources/Strings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/PromptView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/PromptView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/DevolutionView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/InputHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/MenuOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/MenuOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/BookListView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/BookListView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/DevolutionView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/DevolutionView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/RentView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/RentView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/components/TableList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/components/TableList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/MenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/RentView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/controllers/LibraryControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.controllers.LibraryControllerTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.controllers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.controllers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/strings/Strings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/strings/Strings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.controllers.LibraryControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/strings/Strings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/strings/Strings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/strings/Strings.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/LibraryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/resources/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/resources/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/DevolutionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/DevolutionView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/RentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/RentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/components/TableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/components/TableList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/LibraryControllerTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,19 +79,13 @@
       <list>
         <option value="JavaFXApplication" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="205" />
-    <option name="y" value="200" />
-    <option name="width" value="1161" />
-    <option name="height" value="636" />
   </component>
   <component name="ProjectId" id="1P9zSpwF8FJhyCLczy4AUq3t87a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,11 +96,13 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -143,7 +139,7 @@
   <component name="RunManager" selected="Application.BibliotecaApp">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
-      <module name="twu-biblioteca-andrei.main" />
+      <module name="TWU_Biblioteca-master.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.twu.biblioteca.*" />
@@ -174,12 +170,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookControllerTest.shouldNotRentSameBookTwice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DevolutionViewTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.controllers.BookControllerTest.shouldNotRentSameBookTwice&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.view.books.DevolutionViewTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -194,12 +190,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookControllerTest.shouldThrowWhenBookWasNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ProductControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.controllers.BookControllerTest.shouldThrowWhenBookWasNotFound&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.controllers.ProductControllerTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -236,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BibliotecaApp" />
+        <item itemvalue="Gradle.ProductControllerTest" />
+        <item itemvalue="Gradle.DevolutionViewTest" />
         <item itemvalue="Gradle.BookControllerTest" />
         <item itemvalue="Gradle.TableListTest.test" />
-        <item itemvalue="Application.BibliotecaApp" />
-        <item itemvalue="Gradle.BookControllerTest.shouldThrowWhenBookWasNotFound" />
-        <item itemvalue="Gradle.BookControllerTest.shouldNotRentSameBookTwice" />
       </list>
     </recent_temporary>
   </component>
@@ -254,8 +250,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565301103000</updated>
+      <workItem from="1565703356850" duration="8561000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -287,76 +287,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

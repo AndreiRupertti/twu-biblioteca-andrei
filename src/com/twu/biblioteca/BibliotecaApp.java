@@ -2,7 +2,6 @@ package com.twu.biblioteca;
 
 import com.twu.biblioteca.models.Book;
 import com.twu.biblioteca.models.Movie;
-import com.twu.biblioteca.models.ProductCategory;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.models.Storage;
 import com.twu.biblioteca.controllers.ProductController;

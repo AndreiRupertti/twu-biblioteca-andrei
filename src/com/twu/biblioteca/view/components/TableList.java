@@ -12,8 +12,8 @@ public class TableList {
         this.headerLabels = headerLabels;
         this.rowsValues = new ArrayList<>();
     }
-    public void addRow(String... values) { rowsValues.add(values); }
 
+    public void addRow(String... values) { rowsValues.add(values); }
 
     public String getTable() {
         String splitter = getLineSplitter(getRow(headerLabels).length()-1);
@@ -36,7 +36,9 @@ public class TableList {
 
     private String getRow(String[] values) {
         List<String> rowAsList = Arrays.asList(values);
-        return "| " + rowAsList.stream().reduce("", (fullStr, value) -> fullStr + String.format("%-"+getColumnWidth(rowAsList.indexOf(value)) + "s | ", value))+ "\n";
+        String formattedValues = rowAsList.stream()
+                .reduce("", (fullStr, value) -> fullStr + String.format("%-"+getColumnWidth(rowAsList.indexOf(value)) + "s | ", value));
+        return "| " + formattedValues + "\n";
     }
 
     private int getColumnWidth(int columnIndex) {
@@ -44,6 +46,6 @@ public class TableList {
                 .map(value -> value[columnIndex] )
                 .reduce((longerStr, value) -> longerStr.length() > value.length() ? longerStr : value)
                 .orElse(" ")
-                .length() + 4;
+                .length() + 2;
     }
 }

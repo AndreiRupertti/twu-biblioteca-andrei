@@ -18,8 +18,8 @@ public class DevolutionView extends PromptView implements InputHandler {
 
     @Override
     public void initialize() {
-        ProductController bookController = BibliotecaApp.getProductController();
-        if (returnBook(bookController)) successHandler();
+        ProductController productController = BibliotecaApp.getProductController();
+        if (returnProduct(productController)) successHandler();
         else failureHandler();
     }
 
@@ -33,9 +33,9 @@ public class DevolutionView extends PromptView implements InputHandler {
         refresh();
     }
 
-    private boolean returnBook(ProductController bookController) {
+    private boolean returnProduct(ProductController productController) {
         Integer bookCod = super.askAndParse(Strings.get("devolution.question"), Integer::parseInt);
-        return bookController.returnProductByCod(bookCod);
+        return productController.returnProductByCod(bookCod);
     }
 
 }
