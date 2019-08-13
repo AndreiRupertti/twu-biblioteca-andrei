@@ -1,7 +1,8 @@
 package com.twu.biblioteca.view.books;
 
 import com.twu.biblioteca.BibliotecaApp;
-import com.twu.biblioteca.controllers.LibraryController;
+import com.twu.biblioteca.controllers.ProductController;
+import com.twu.biblioteca.models.ProductCategory;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
 import com.twu.biblioteca.view.InputHandler;
@@ -17,8 +18,8 @@ public class DevolutionView extends PromptView implements InputHandler {
 
     @Override
     public void initialize() {
-        LibraryController libraryController = BibliotecaApp.getLibraryController();
-        if (returnBook(libraryController)) successHandler();
+        ProductController bookController = BibliotecaApp.getProductController();
+        if (returnBook(bookController)) successHandler();
         else failureHandler();
     }
 
@@ -32,9 +33,9 @@ public class DevolutionView extends PromptView implements InputHandler {
         refresh();
     }
 
-    private boolean returnBook(LibraryController libraryController) {
-        String bookTitle = super.ask(Strings.get("devolution.question"));
-        return libraryController.returnBook(bookTitle);
+    private boolean returnBook(ProductController bookController) {
+        Integer bookCod = super.askAndParse(Strings.get("devolution.question"), Integer::parseInt);
+        return bookController.returnProductByCod(bookCod);
     }
 
 }

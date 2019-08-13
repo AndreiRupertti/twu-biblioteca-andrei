@@ -1,8 +1,9 @@
 package com.twu.biblioteca.view.books;
 
 import com.twu.biblioteca.BibliotecaApp;
-import com.twu.biblioteca.controllers.LibraryController;
+import com.twu.biblioteca.controllers.ProductController;
 import com.twu.biblioteca.models.Book;
+import com.twu.biblioteca.models.ProductCategory;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
 import com.twu.biblioteca.view.InputHandler;
@@ -19,9 +20,9 @@ public class RentView extends PromptView implements InputHandler {
 
     @Override
     public void initialize() {
-        LibraryController libraryController = BibliotecaApp.getLibraryController();
+        ProductController bookController = BibliotecaApp.getProductController();
         try {
-            Book book = checkoutBook(libraryController);
+            Book book = checkoutBook(bookController);
             successHandler();
         } catch (NoSuchElementException e) {
             failureHandler();
@@ -38,8 +39,8 @@ public class RentView extends PromptView implements InputHandler {
         refresh();
     }
 
-    private Book checkoutBook(LibraryController libraryController) {
-        String bookTitle = super.ask(Strings.get("rent.question"));
-        return libraryController.checkoutBookByTitle(bookTitle);
+    private Book checkoutBook(ProductController bookController) {
+        Integer bookCod = super.askAndParse(Strings.get("rent.question"), Integer::parseInt);
+        return (Book) bookController.rentProductByCod(bookCod);
     }
 }

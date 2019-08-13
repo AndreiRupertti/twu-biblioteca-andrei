@@ -1,12 +1,12 @@
 package com.twu.biblioteca.models;
 
-public class Book {
+public class Book extends Product {
     private String title;
     private int year;
     private String author;
-    private boolean checkouted;
 
     public Book(String title, int year, String author) {
+        super(ProductCategory.valueOf("BOOK"));
         this.title = title;
         this.year = year;
         this.author = author;
@@ -24,16 +24,8 @@ public class Book {
         return author;
     }
 
-    public boolean isCheckouted() {
-        return checkouted;
-    }
-
-    public void setCheckouted(boolean checkouted) {
-        this.checkouted = checkouted;
-    }
-
     @Override
     public String toString() {
-        return title + " (" + year + ") - By: " + author;
+        return getProductCod() + " - " + title + " (" + year + ") - By: " + author;
     }
 }
