@@ -15,10 +15,6 @@ public class Strings {
         }
     }
 
-    public static String get(String key, String replace) {
-        return String.format(get(key), replace);
-    }
-
-        public static ResourceBundle getResourceBundle() { return ResourceBundle.getBundle(STRINGS_BUNDLE); }
+    public static ResourceBundle getResourceBundle() { return ResourceBundle.getBundle(STRINGS_BUNDLE); }
 
 }

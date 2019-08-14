@@ -1,4 +1,4 @@
-package com.twu.biblioteca.view.books;
+package com.twu.biblioteca.view.products;
 
 import com.twu.biblioteca.BibliotecaApp;
 import com.twu.biblioteca.controllers.ProductController;

@@ -1,4 +1,4 @@
-package com.twu.biblioteca.view.books;
+package com.twu.biblioteca.view.products;
 
 import com.twu.biblioteca.BibliotecaApp;
 import com.twu.biblioteca.controllers.ProductController;
@@ -29,6 +29,7 @@ public class BookListView extends PromptView {
 
     private TableList getBooksTableList(List<Book> books) {
         TableList tableList = new TableList("Cod", "Title", "Year", "Author");
+        if (books.isEmpty()) tableList.addRow("--", "EMPTY", "--", "---");
         for (Book book : books) {
             tableList.addRow(
                     book.getProductCod().toString(),

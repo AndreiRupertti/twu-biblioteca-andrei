@@ -2,6 +2,7 @@ package com.twu.biblioteca.view.books;
 
 
 import com.twu.biblioteca.view.menu.MenuView;
+import com.twu.biblioteca.view.products.RentView;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

@@ -1,6 +1,6 @@
 package com.twu.biblioteca.view.books;
 
-import com.twu.biblioteca.view.books.DevolutionView;
+import com.twu.biblioteca.view.products.DevolutionView;
 import com.twu.biblioteca.view.menu.MenuView;
 import org.junit.Before;
 import org.junit.Test;

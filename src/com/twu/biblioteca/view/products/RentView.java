@@ -1,8 +1,10 @@
-package com.twu.biblioteca.view.books;
+package com.twu.biblioteca.view.products;
 
 import com.twu.biblioteca.BibliotecaApp;
+import com.twu.biblioteca.controllers.AuthController;
 import com.twu.biblioteca.controllers.ProductController;
 import com.twu.biblioteca.models.Product;
+import com.twu.biblioteca.models.User;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
 import com.twu.biblioteca.view.InputHandler;
@@ -21,7 +23,8 @@ public class RentView extends PromptView implements InputHandler {
     public void initialize() {
         ProductController productController = BibliotecaApp.getProductController();
         try {
-            Product product = checkoutProduct(productController);
+            User user = AuthController.getCurrentUser();
+            Product product = checkoutProduct(productController, user);
             successHandler();
         } catch (NoSuchElementException e) {
             failureHandler();
@@ -38,8 +41,8 @@ public class RentView extends PromptView implements InputHandler {
         refresh();
     }
 
-    private Product checkoutProduct(ProductController productController) {
+    private Product checkoutProduct(ProductController productController, User rentedBy) {
         Integer productCod = super.askAndParse(Strings.get("rent.question"), Integer::parseInt);
-        return productController.rentProductByCod(productCod);
+        return productController.rentProductByCod(productCod, rentedBy);
     }
 }

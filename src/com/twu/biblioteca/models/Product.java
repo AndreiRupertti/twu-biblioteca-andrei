@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public abstract class Product {
     private static final AtomicInteger atomicInteger = new AtomicInteger(100);
     private Integer productCod;
-    private boolean rented;
+    private User rentedBy;
     private ProductCategory category;
 
     public Product(ProductCategory category) {
@@ -26,11 +26,15 @@ public abstract class Product {
         return category;
     }
 
-    public void setRented(boolean rented) {
-        this.rented = rented;
+    public void setRentedBy(User rentedBy) {
+        this.rentedBy = rentedBy;
+    }
+
+    public User getRentedBy() {
+        return rentedBy;
     }
 
     public boolean isRented() {
-        return rented;
+        return rentedBy != null;
     }
 }

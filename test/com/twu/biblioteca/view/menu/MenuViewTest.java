@@ -9,7 +9,6 @@ import java.util.Scanner;
 import java.util.function.Function;
 
 import static org.mockito.Mockito.*;
-import static org.junit.Assert.*;
 
 public class MenuViewTest {
 

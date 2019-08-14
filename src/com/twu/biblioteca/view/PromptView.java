@@ -26,7 +26,7 @@ public abstract class PromptView implements View {
 
     public <T extends View> void goTo(Class<T> view) {
         try {
-            View newView = (View) view.getConstructor(Scanner.class).newInstance(reader);
+            View newView = view.getConstructor(Scanner.class).newInstance(reader);
             newView.initialize();
         } catch (Exception e) {
             e.printStackTrace();

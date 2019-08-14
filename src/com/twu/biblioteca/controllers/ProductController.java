@@ -1,8 +1,9 @@
 package com.twu.biblioteca.controllers;
 
+import com.twu.biblioteca.dao.ProductDAO;
 import com.twu.biblioteca.models.Product;
 import com.twu.biblioteca.models.ProductCategory;
-import com.twu.biblioteca.models.Storage;
+import com.twu.biblioteca.models.User;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -10,14 +11,14 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class ProductController {
-    private Storage storage;
+    private ProductDAO productDAO;
 
-    public ProductController(Storage storage) {
-        this.storage = storage;
+    public ProductController(ProductDAO productDAO) {
+        this.productDAO = productDAO;
     }
 
     public List<Product> getProductsByCategory(ProductCategory category) {
-        return storage.getItems().stream()
+        return productDAO.getAll().stream()
                 .filter(item -> item.getCategory() == category)
                 .collect(Collectors.toList());
     }
@@ -30,23 +31,29 @@ public class ProductController {
     }
 
     public Product findProductWhere(Predicate<Product> filter) {
-        return this.storage.getItems().stream()
+        return productDAO.getAll().stream()
                 .filter(filter)
                 .findAny()
                 .orElse(null);
     }
 
-    public Product rentProductByCod(Integer productCod) {
+    public List<Product> getProductsRentedByUser(User user) {
+        return productDAO.getAll().stream()
+                .filter(product -> user.equals(product.getRentedBy()))
+                .collect(Collectors.toList());
+    }
+
+    public Product rentProductByCod(Integer productCod, User rentedBy) {
         Product product = findProductWhere((prod) -> prod.getProductCod() == productCod && !prod.isRented());
         if (product == null) throw new NoSuchElementException("Invalid product to rent");
-        product.setRented(true);
+        product.setRentedBy(rentedBy);
         return product;
     }
 
-    public boolean returnProductByCod(Integer productCod) {
-        Product product = findProductWhere((prod) -> prod.getProductCod() == productCod && prod.isRented());
+    public boolean returnProductByCod(Integer productCod, User returnedBy) {
+        Product product = findProductWhere((prod) -> prod.getProductCod() == productCod && returnedBy.equals(prod.getRentedBy()));
         if (product == null) return false;
-        product.setRented(false);
+        product.setRentedBy(null);
         return true;
     }
 
