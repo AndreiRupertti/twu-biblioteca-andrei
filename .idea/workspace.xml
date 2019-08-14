@@ -14,40 +14,39 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/BibliotecaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/BibliotecaApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/controllers/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/controllers/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/resources/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/resources/Strings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/BookListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/DevolutionView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/MovieListView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/books/RentView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/MenuView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/menu/MenuView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/controllers/ProductControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/controllers/ProductControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/view/books/DevolutionViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/view/books/DevolutionViewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/view/books/RentViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/view/books/RentViewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/view/menu/MenuViewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/twu/biblioteca/view/menu/MenuViewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.controllers.ProductControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/models/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/components/TableList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/components/TableList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/products/UserProductsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/twu/biblioteca/view/products/UserProductsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.ExampleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.ExampleTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.controllers.AuthControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.controllers.AuthControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.controllers.ProductControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.controllers.ProductControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.resources.StringsTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.resources.StringsTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.PromptViewTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.PromptViewTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.books.DevolutionViewTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.books.DevolutionViewTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.books.RentViewTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.books.RentViewTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.menu.MenuOptionFactoryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.menu.MenuOptionFactoryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.menu.MenuViewTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.twu.biblioteca.view.menu.MenuViewTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.controllers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.controllers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/strings/Strings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/strings/Strings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.controllers.ProductControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.view.books.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.view.books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.view.menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.twu.biblioteca.view.menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.ExampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.ExampleTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.controllers.AuthControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.controllers.AuthControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.controllers.ProductControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.controllers.ProductControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.resources.StringsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.resources.StringsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.PromptViewTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.PromptViewTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.books.DevolutionViewTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.books.DevolutionViewTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.books.RentViewTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.books.RentViewTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.menu.MenuOptionFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.menu.MenuOptionFactoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.menu.MenuViewTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.twu.biblioteca.view.menu.MenuViewTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/strings/Strings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/strings/Strings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/resources/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/resources/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/PromptView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/BookListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/products/BookListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/DevolutionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/products/DevolutionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/MovieListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/products/MovieListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/books/RentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/products/RentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/menu/MenuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/controllers/ProductControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/DevolutionViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/DevolutionViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/books/RentViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/view/menu/MenuViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/components/TableList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/components/TableList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/view/products/UserProductsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/view/products/UserProductsView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AuthControllerTest.shouldReturnTrueToAuthenticateUserWithRightPasswordAndUsername">
+  <component name="RunManager" selected="Application.BibliotecaApp">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="TWU_Biblioteca-master.main" />
@@ -155,6 +154,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="AuthControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.controllers.AuthControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="AuthControllerTest.shouldReturnTrueToAuthenticateUserWithRightPasswordAndUsername" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -176,32 +195,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MenuViewTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AuthControllerTest.shouldThrowAuthenticationExceptionWithInvalidLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.view.menu.MenuViewTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProductControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.controllers.ProductControllerTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.twu.biblioteca.controllers.AuthControllerTest.shouldThrowAuthenticationExceptionWithInvalidLogin&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -238,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AuthControllerTest.shouldReturnTrueToAuthenticateUserWithRightPasswordAndUsername" />
-        <item itemvalue="Gradle.Tests in 'TWU_Biblioteca-master.test'" />
-        <item itemvalue="Gradle.ProductControllerTest" />
-        <item itemvalue="Gradle.MenuViewTest" />
         <item itemvalue="Application.BibliotecaApp" />
+        <item itemvalue="Gradle.Tests in 'TWU_Biblioteca-master.test'" />
+        <item itemvalue="Gradle.AuthControllerTest" />
+        <item itemvalue="Gradle.AuthControllerTest.shouldThrowAuthenticationExceptionWithInvalidLogin" />
+        <item itemvalue="Gradle.AuthControllerTest.shouldReturnTrueToAuthenticateUserWithRightPasswordAndUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,7 @@
       <updated>1565301103000</updated>
       <workItem from="1565703356850" duration="12038000" />
       <workItem from="1565735402113" duration="234000" />
-      <workItem from="1565789235978" duration="3870000" />
+      <workItem from="1565789235978" duration="5321000" />
     </task>
     <servers />
   </component>

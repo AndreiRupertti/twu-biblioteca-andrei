@@ -3,6 +3,10 @@ package com.twu.biblioteca.view.components;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BiFunction;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.stream.Stream;
 
 public class TableList {
     private String[] headerLabels;
@@ -42,10 +46,9 @@ public class TableList {
     }
 
     private int getColumnWidth(int columnIndex) {
-        return rowsValues.stream()
-                .map(value -> value[columnIndex] )
-                .reduce((longerStr, value) -> longerStr.length() > value.length() ? longerStr : value)
-                .orElse(" ")
-                .length() + 2;
+        BinaryOperator<String> longerString = (longerStr, value) -> longerStr.length() > value.length() ? longerStr : value;
+        Integer biggestRowLength = rowsValues.stream().map(value -> value[columnIndex] ).reduce(longerString).orElse(" ").length();
+        Integer biggestHeaderLength = Arrays.asList(headerLabels).stream().reduce(longerString).orElse(" ").length();
+        return (biggestHeaderLength > biggestRowLength ? biggestHeaderLength : biggestRowLength) + 2 ;
     }
 }

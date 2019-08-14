@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.twu.biblioteca.view.menu.MenuViewTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:40:50" hostname="Andreis-MacBook-Pro.local" time="0.054">
+<testsuite name="com.twu.biblioteca.view.menu.MenuViewTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:48:56" hostname="Andreis-MacBook-Pro.local" time="0.055">
   <properties/>
-  <testcase name="shouldHandleInvalidAnswer" classname="com.twu.biblioteca.view.menu.MenuViewTest" time="0.049"/>
-  <testcase name="shouldHandleValidAnswer" classname="com.twu.biblioteca.view.menu.MenuViewTest" time="0.005"/>
+  <testcase name="shouldHandleInvalidAnswer" classname="com.twu.biblioteca.view.menu.MenuViewTest" time="0.047"/>
+  <testcase name="shouldHandleValidAnswer" classname="com.twu.biblioteca.view.menu.MenuViewTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.lang.Exception: invalid option number
 	at com.twu.biblioteca.view.menu.MenuView.initialize(MenuView.java:33)

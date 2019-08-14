@@ -24,7 +24,7 @@ public class UserProductsView extends PromptView {
     public void initialize() {
         ProductController productController = BibliotecaApp.getProductController();
         User user = AuthController.getCurrentUser();
-        List<Product> rentedProducts = productController.getProductsRentedByUser(user);
+        List<Product> rentedProducts = productController.getProductsWhere(product -> product.isRented());
         TableList tableList = getProductsTableList(rentedProducts);
 
         super.show(tableList.getTable());
@@ -32,12 +32,13 @@ public class UserProductsView extends PromptView {
     }
 
     private TableList getProductsTableList(List<Product> products) {
-        TableList tableList = new TableList("Cod", "Category", "Name");
+        TableList tableList = new TableList("Cod", "Category", "Name", "Checked out By");
         for (Product product : products) {
             tableList.addRow(
                     product.getProductCod().toString(),
                     product.getCategory().getValue(),
-                    getProductName(product)
+                    getProductName(product),
+                    product.getRentedBy().getLibraryNumber()
             );
         }
         return tableList;

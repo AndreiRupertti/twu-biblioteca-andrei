@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.twu.biblioteca.controllers.AuthControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:40:50" hostname="Andreis-MacBook-Pro.local" time="0.039">
+<testsuite name="com.twu.biblioteca.controllers.AuthControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:48:57" hostname="Andreis-MacBook-Pro.local" time="0.042">
   <properties/>
-  <testcase name="shouldThrowAuthenticationExceptionWithInvalidLogin" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.036"/>
-  <testcase name="shouldReturnFalseToAuthenticateUserWithWrongUsername" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.001"/>
+  <testcase name="shouldThrowAuthenticationExceptionWithInvalidLogin" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.038"/>
+  <testcase name="shouldReturnFalseToAuthenticateUserWithWrongUsername" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.0"/>
   <testcase name="shouldReturnUserWhenLoginIsValid" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.0"/>
-  <testcase name="shouldSetUserAsCurrentAfterValidLogin" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.0"/>
+  <testcase name="shouldSetUserAsCurrentAfterValidLogin" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.001"/>
   <testcase name="shouldReturnFalseToAuthenticateUserWithWrongPassword" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.001"/>
   <testcase name="shouldReturnTrueToAuthenticateUserWithRightPasswordAndUsername" classname="com.twu.biblioteca.controllers.AuthControllerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

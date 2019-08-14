@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.twu.biblioteca.ExampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:40:44" hostname="Andreis-MacBook-Pro.local" time="0.001">
+<testsuite name="com.twu.biblioteca.ExampleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:48:50" hostname="Andreis-MacBook-Pro.local" time="0.0">
   <properties/>
-  <testcase name="test" classname="com.twu.biblioteca.ExampleTest" time="0.001"/>
+  <testcase name="test" classname="com.twu.biblioteca.ExampleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

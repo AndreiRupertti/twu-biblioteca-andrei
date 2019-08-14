@@ -37,9 +37,9 @@ public class ProductController {
                 .orElse(null);
     }
 
-    public List<Product> getProductsRentedByUser(User user) {
+    public List<Product> getProductsWhere(Predicate<Product> filter) {
         return productDAO.getAll().stream()
-                .filter(product -> user.equals(product.getRentedBy()))
+                .filter(filter)
                 .collect(Collectors.toList());
     }
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.twu.biblioteca.view.PromptViewTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:40:50" hostname="Andreis-MacBook-Pro.local" time="0.04">
+<testsuite name="com.twu.biblioteca.view.PromptViewTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:48:56" hostname="Andreis-MacBook-Pro.local" time="0.045">
   <properties/>
-  <testcase name="shouldGoToCurrentViewWhenRefreshing" classname="com.twu.biblioteca.view.PromptViewTest" time="0.016"/>
-  <testcase name="shouldAskQuestionAndReturnAnswer" classname="com.twu.biblioteca.view.PromptViewTest" time="0.01"/>
-  <testcase name="shouldClosePromptWhenUnableToInitialize" classname="com.twu.biblioteca.view.PromptViewTest" time="0.008"/>
-  <testcase name="shouldInitGivenViewClass" classname="com.twu.biblioteca.view.PromptViewTest" time="0.0"/>
-  <testcase name="shouldAskAndParseResult" classname="com.twu.biblioteca.view.PromptViewTest" time="0.002"/>
+  <testcase name="shouldGoToCurrentViewWhenRefreshing" classname="com.twu.biblioteca.view.PromptViewTest" time="0.017"/>
+  <testcase name="shouldAskQuestionAndReturnAnswer" classname="com.twu.biblioteca.view.PromptViewTest" time="0.014"/>
+  <testcase name="shouldClosePromptWhenUnableToInitialize" classname="com.twu.biblioteca.view.PromptViewTest" time="0.009"/>
+  <testcase name="shouldInitGivenViewClass" classname="com.twu.biblioteca.view.PromptViewTest" time="0.001"/>
+  <testcase name="shouldAskAndParseResult" classname="com.twu.biblioteca.view.PromptViewTest" time="0.003"/>
   <system-out><![CDATA[Question?
 Good Bye!
 Question?
