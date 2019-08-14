@@ -23,8 +23,8 @@ public class AuthControllerTest {
     private AuthController authController;
     @Mock UserDAO mockUserDAO;
     List<User> stubUsers = new ArrayList<>(Arrays.asList(
-            new User("111-2222", "123456"),
-            new User("333-4444", "654321")
+            new User("111-2222", "123456", "User 1", "test@thoughtworks.com", "9999-99999"),
+            new User("333-4444", "654321", "User 2", "test@thoughtworks.com", "9999-99999")
     ));
 
     @Before

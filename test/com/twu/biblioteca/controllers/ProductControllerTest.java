@@ -8,6 +8,7 @@ import org.mockito.Mock;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 import static org.hamcrest.core.Is.is;
@@ -74,11 +75,8 @@ public class ProductControllerTest {
     }
 
     @Test
-    public void WhenReturningProductShouldSetAsNotRented() {
-        stubFullProducts.get(0).setRentedBy(mockUser);
-        Integer prodCod = stubFullProducts.get(0).getProductCod();
-        assertThat(productController.returnProductByCod(prodCod, mockUser), is(true));
-        assertThat(stubFullProducts.get(0).isRented(), is(false));
-        assertNull(stubFullProducts.get(0).getRentedBy());
+    public void shouldFindProductsByFilter() {
+        List<Product> products = productController.getProductsWhere(product -> product.getCategory() == ProductCategory.MOVIE);
+        assertThat(products, is(stubMoviesList));
     }
 }

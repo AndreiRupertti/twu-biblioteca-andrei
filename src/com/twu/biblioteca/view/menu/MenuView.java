@@ -3,6 +3,7 @@ package com.twu.biblioteca.view.menu;
 import com.twu.biblioteca.resources.Strings;
 import com.twu.biblioteca.view.PromptView;
 import com.twu.biblioteca.view.products.*;
+import com.twu.biblioteca.view.user.UserProfileView;
 
 import static com.twu.biblioteca.view.menu.MenuOptionFactory.*;
 
@@ -20,7 +21,8 @@ public class MenuView extends PromptView {
                 option(2, Strings.get("menu.viewMovieListOption"), () -> super.goTo(MovieListView.class)),
                 option(3, Strings.get("menu.rentBookOption"), () -> super.goTo(RentView.class)),
                 option(4, Strings.get("menu.devolutionBookOption"), () -> super.goTo(DevolutionView.class)),
-                option(5, Strings.get("menu.userProducts"), () -> super.goTo(UserProductsView.class)),
+                option(5, Strings.get("menu.viewRentedProducts"), () -> super.goTo(UserProductsView.class)),
+                option(6, Strings.get("menu.userInformation"), () -> super.goTo(UserProfileView.class)),
                 option(0, Strings.get("menu.exitOption"), super::close)
         );
     }

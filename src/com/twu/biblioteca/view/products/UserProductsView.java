@@ -23,7 +23,6 @@ public class UserProductsView extends PromptView {
     @Override
     public void initialize() {
         ProductController productController = BibliotecaApp.getProductController();
-        User user = AuthController.getCurrentUser();
         List<Product> rentedProducts = productController.getProductsWhere(product -> product.isRented());
         TableList tableList = getProductsTableList(rentedProducts);
 

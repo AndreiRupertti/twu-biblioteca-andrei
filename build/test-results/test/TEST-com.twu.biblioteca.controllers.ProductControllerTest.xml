@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.twu.biblioteca.controllers.ProductControllerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-14T14:48:57" hostname="Andreis-MacBook-Pro.local" time="0.046">
+<testsuite name="com.twu.biblioteca.controllers.ProductControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-14T15:27:48" hostname="Andreis-MacBook-Pro.local" time="5.6">
   <properties/>
-  <testcase name="shouldGetProductsByCategoryMovie" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="0.041"/>
-  <testcase name="WhenReturningProductShouldSetAsNotRented" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="0.002"/>
-  <testcase name="shouldNotRentTheSameProductTwice" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="0.001"/>
-  <testcase name="shouldNotReturnProductThatIsNotRented" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="0.001"/>
-  <testcase name="shouldCheckProductAsRentedByUser" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="0.0"/>
-  <testcase name="shouldGetProductsByCategoryBook" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="0.0"/>
+  <testcase name="shouldFindProductsByFilter" classname="com.twu.biblioteca.controllers.ProductControllerTest" time="5.6"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
